@@ -1,0 +1,58 @@
+
+# ==========================================
+# DS_FINAL_RESEARCH - .gitignore
+# ==========================================
+
+# ---------- ECG Dataset ----------
+/PTBXL_EXTRACTED/
+/research_ds.zip
+
+# ---------- Cache ----------
+/cache/
+
+# ---------- Training Runs ----------
+/runs/
+
+# ---------- Python Cache ----------
+**/__pycache__/
+*.pyc
+*.pyo
+
+# ---------- Model Checkpoints ----------
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.keras
+*.onnx
+*.safetensors
+
+# ---------- Python Environments ----------
+.venv/
+venv/
+env/
+ENV/
+
+# ---------- Temporary Files ----------
+*.tmp
+*.temp
+*.bak
+*.swp
+*.log
+
+# ---------- Jupyter Temporary Files ----------
+.ipynb_checkpoints/
+
+# ---------- IDE ----------
+.vscode/
+.idea/
+
+# ---------- Operating System Files ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------- Secrets ----------
+.env
+.env.*
+!.env.example
